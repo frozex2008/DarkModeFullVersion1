@@ -1,16 +1,3 @@
-// ==UserScript==
-// @name         Event Tool SuperDuo
-// @version      1.1.0
-// @author       FrozeX
-// @namespace    http://tampermonkey.net/
-// @description  Lấy link Super Duolingo miễn phí!!!
-// @match        https://*.duolingo.com/*
-// @grant        none
-// @icon         https://d35aaqx5ub95lt.cloudfront.net/images/streakCalendar/85f13bef0cec7175ae190a3a8a513d58.svg
-// @downloadURL  https://greasyfork.org/vi/scripts/494411-super-duolingo
-// @updateURL    https://update.greasyfork.org/scripts/494411/Super-Duolingo.meta.js
-// ==/UserScript==
-
 (function() {
     'use strict';
 

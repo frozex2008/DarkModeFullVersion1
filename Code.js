@@ -1,1 +1,927 @@
-var _0x5cbc64=_0x585d;(function(_0x22b071,_0x2d6100){var _0x41e4a8=_0x585d,_0x5899e4=_0x22b071();while(!![]){try{var _0x5f2b48=parseInt(_0x41e4a8(0x1dc))/0x1+-parseInt(_0x41e4a8(0x1cc))/0x2*(parseInt(_0x41e4a8(0x1b8))/0x3)+parseInt(_0x41e4a8(0x1bc))/0x4+-parseInt(_0x41e4a8(0x15e))/0x5*(-parseInt(_0x41e4a8(0x194))/0x6)+-parseInt(_0x41e4a8(0x166))/0x7+parseInt(_0x41e4a8(0x141))/0x8*(parseInt(_0x41e4a8(0x19f))/0x9)+parseInt(_0x41e4a8(0x1bb))/0xa;if(_0x5f2b48===_0x2d6100)break;else _0x5899e4['push'](_0x5899e4['shift']());}catch(_0x46d830){_0x5899e4['push'](_0x5899e4['shift']());}}}(_0x3249,0xa2eba),(function(){'use strict';var _0x2526a1=_0x585d;var _0xcc1a5d=localStorage[_0x2526a1(0x1f4)](_0x2526a1(0x1cb));!_0xcc1a5d&&(_0xcc1a5d=0x0);_0xcc1a5d++;if(_0xcc1a5d<=0x1)alert(_0x2526a1(0x1f7)),localStorage[_0x2526a1(0x1df)](_0x2526a1(0x1cb),_0xcc1a5d);else _0xcc1a5d/0x1===0x1&&alert(_0x2526a1(0x1ea));}()));var usedKeys={};function generateRandomCode(){var _0xe45bd=_0x585d,_0x445965='SUPERDUOFAMILY',_0x15021f='';for(var _0x2c97e0=0x0;_0x2c97e0<0x9;_0x2c97e0++){_0x15021f+=_0x445965[_0xe45bd(0x1f8)](Math[_0xe45bd(0x1a6)](Math[_0xe45bd(0x191)]()*_0x445965[_0xe45bd(0x156)]));}return _0x15021f;}function getCurrentIP(){return'123.456.789.012';}function getNewCode(){var _0x17e8a6=_0x585d,_0x4076cd=new Date()[_0x17e8a6(0x16b)](),_0xc234ec=localStorage[_0x17e8a6(0x1f4)]('lastKeyCode'),_0x3b16f9=localStorage[_0x17e8a6(0x1f4)]('lastKeyTime');if(_0xc234ec&&_0x3b16f9&&_0x4076cd-parseInt(_0x3b16f9)<0x1499700)return alert(_0x17e8a6(0x198)),null;else{var _0x3ba292='VIP_'+generateRandomCode();return localStorage[_0x17e8a6(0x1df)](_0x17e8a6(0x1cf),_0x3ba292),localStorage[_0x17e8a6(0x1df)](_0x17e8a6(0x1bf),_0x4076cd[_0x17e8a6(0x186)]()),_0x3ba292;}}function checkKeyUsage(_0x4cfde2){var _0x4a80da=_0x585d;return usedKeys[_0x4a80da(0x15b)](_0x4cfde2);}function markKeyAsUsed(_0x1e2e0b){usedKeys[_0x1e2e0b]=!![];}function addStyles(_0x29ba5a){var _0x486770=_0x585d,_0x19b7fc=document[_0x486770(0x157)](_0x486770(0x14d));_0x19b7fc[_0x486770(0x177)]=_0x29ba5a,document[_0x486770(0x163)][_0x486770(0x1ed)](_0x19b7fc);}fetch('https://api.ipify.org?format=json')[_0x5cbc64(0x1e9)](_0x2ab2b2=>_0x2ab2b2[_0x5cbc64(0x1d6)]())[_0x5cbc64(0x1e9)](_0x58b23b=>{var _0x46ca33=_0x5cbc64;const _0x940366=['171.243.60.166','1.55.42.126','115.76.93.38'],_0x3b596e=['127.0.0.1',_0x46ca33(0x1a0)];(_0x940366[_0x46ca33(0x1d7)](_0x58b23b['ip'])||_0x3b596e[_0x46ca33(0x1d7)](_0x58b23b['ip']))&&disableWebsite(()=>{alert('🚫\x20Thiết\x20bị\x20của\x20bạn\x20không\x20hỗ\x20trợ\x20Super-Duolingo\x20EVENT\x20này!\x0a❌\x20Bạn\x20không\x20đủ\x20điều\x20kiện\x20tham\x20gia\x20VIP\x20EVENT.'),hideContainerDiv();});})['catch'](_0x52a7d1=>{var _0x36852d=_0x5cbc64;console['error'](_0x36852d(0x14c),_0x52a7d1);});function disableWebsite(_0x896aff){var _0x280d49=_0x5cbc64;typeof _0x896aff===_0x280d49(0x143)&&setTimeout(_0x896aff,0x3e8);}function hideContainerDiv(){var _0x3a93ec=_0x5cbc64,_0x2c8e69=document[_0x3a93ec(0x1ba)]('containerDiv');_0x2c8e69&&(_0x2c8e69[_0x3a93ec(0x14d)][_0x3a93ec(0x1a8)]=_0x3a93ec(0x1e8));}var containerDivStyles='\x0a\x20\x20\x20\x20#containerDiv\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20position:\x20fixed;\x0a\x20\x20\x20\x20\x20\x20\x20\x20bottom:\x2077.5px;\x20/*\x20Điều\x20chỉnh\x20giá\x20trị\x20bottom\x20lên\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20left:\x2026px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x209999;\x0a\x20\x20\x20\x20\x20\x20\x20\x20animation:\x20bounce\x201s\x20infinite;\x0a\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20flex-direction:\x20column;\x0a\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20flex-start;\x0a\x20\x20\x20\x20}\x0a',verifyButtonStyles=_0x5cbc64(0x1a9),getCodeButtonStyles='\x0a\x20\x20\x20\x20#getCodeButton\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20background-image:\x20url(\x27https://static.wixstatic.com/media/e73c92_6aac17c79a3b4403ac9ba915afc73502~mv2.png/v1/fill/w_704,h_247,al_c,lg_1,q_85,enc_auto/e73c92_6aac17c79a3b4403ac9ba915afc73502~mv2.png\x27);\x20/*\x20Background\x20image\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20background-size:\x20cover;\x20/*\x20Ensure\x20the\x20background\x20image\x20covers\x20the\x20button\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20background-position:\x20center;\x20/*\x20Center\x20the\x20background\x20image\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20background-repeat:\x20no-repeat;\x20/*\x20Do\x20not\x20repeat\x20the\x20background\x20image\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20border:\x20none;\x20/*\x20Không\x20viền\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20white;\x20/*\x20Màu\x20chữ\x20đen\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20width:\x20247px;\x20/*\x20Chiều\x20ngang\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20height:\x2050px;\x20/*\x20Chiều\x20rộng\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2010px\x2020px;\x20/*\x20Khoảng\x20cách\x20từ\x20chữ\x20đến\x20viền\x20nút\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20center;\x20/*\x20Canh\x20giữa\x20chữ\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20text-decoration:\x20none;\x20/*\x20Bỏ\x20gạch\x20chân\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20display:\x20inline-block;\x20/*\x20Hiển\x20thị\x20như\x20một\x20khối\x20nội\x20tuyến\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2017px;\x20/*\x20Kích\x20thước\x20chữ\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20bold;\x20/*\x20Chữ\x20đậm\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2020px;\x20/*\x20Bo\x20tròn\x20góc\x20nút\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x20/*\x20Hiển\x20thị\x20con\x20trỏ\x20khi\x20hover\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x204px\x20#1285ba;\x20/*\x20Đổ\x20bóng\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20line-height:\x2035px;\x20/*\x20Set\x20line\x20height\x20equal\x20to\x20button\x20height\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20vertical-align:\x20middle;\x20/*\x20Align\x20vertically\x20middle\x20*/\x0a\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20#getCodeButton:hover\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20filter:\x20brightness(1.2);\x20/*\x20Tăng\x20độ\x20sáng\x20khi\x20di\x20chuột\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#ffffff;\x20/*\x20White\x20text\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x202px\x20#1285ba;\x20/*\x20Giảm\x20bóng\x20khi\x20nhấn\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-color:\x20#50D3FF;\x20/*\x20Viền\x20khi\x20di\x20chuột\x20là\x20màu\x20xanh\x20lá\x20nhạt\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x204px\x20#1285ba;\x20/*\x20Shadow\x20effect\x20*/\x0a\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20#getCodeButton:active\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20translateY(2px);\x20/*\x20Di\x20chuyển\x20nút\x20xuống\x20khi\x20click\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x200px\x20#1285ba;\x20/*\x20Tạo\x20hiệu\x20ứng\x20nhấn\x20*/\x0a\x20\x20\x20\x20}\x0a',getSuperButtonStyles=_0x5cbc64(0x170),rectangleDivStyles=_0x5cbc64(0x192),buttonStyles='\x0a\x20\x20\x20\x20rectangleDivbutton\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2010px\x2020px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x204px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20width:\x20247px;\x20/*\x20Button\x20width\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20height:\x2050px;\x20/*\x20Button\x20height\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20\x20\x20animation:\x20bounce\x201s\x20infinite;\x20/*\x20Animation\x20effect\x20*/\x0a\x20\x20\x20\x20}\x0a',inputStyles=_0x5cbc64(0x144),circleButtonStyles='\x0a\x20\x20\x20\x20#circleButton\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20position:\x20absolute;\x0a\x20\x20\x20\x20\x20\x20\x20\x20top:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20left:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20translate(-50%,\x20-50%);\x20/*\x20Đưa\x20nút\x20vào\x20giữa\x20góc\x20trái\x20phía\x20trên\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20width:\x201px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20height:\x201px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2050%;\x0a\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#f92f2f;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border:\x203px\x20solid\x20#FF0000;\x0a\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x0a\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20z-index:\x201;\x0a\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x200\x2015px\x2015px\x20rgba(255,\x200,\x200,\x200.5);\x20/*\x20Thêm\x20hiệu\x20ứng\x20đổ\x20bóng\x20màu\x20đỏ\x20*/\x0a\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20#circleButton\x20img\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20width:\x2075px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20height:\x2075px;\x0a\x20\x20\x20\x20}\x0a';function createFroXButton(){var _0x9c572f=_0x5cbc64,_0x2f308e=document['createElement'](_0x9c572f(0x169));_0x2f308e[_0x9c572f(0x14d)][_0x9c572f(0x1b9)]=_0x9c572f(0x1ce),_0x2f308e[_0x9c572f(0x14d)][_0x9c572f(0x188)]=_0x9c572f(0x19a),_0x2f308e[_0x9c572f(0x14d)][_0x9c572f(0x18b)]='2.5%',_0x2f308e[_0x9c572f(0x14d)][_0x9c572f(0x1de)]=_0x9c572f(0x15f),_0x2f308e[_0x9c572f(0x14d)]['textAlign']=_0x9c572f(0x162),_0x2f308e[_0x9c572f(0x14d)]['zIndex']=_0x9c572f(0x1c1);var _0x5d6197=document[_0x9c572f(0x157)](_0x9c572f(0x169));_0x5d6197['id']='froXButton',_0x5d6197['style'][_0x9c572f(0x1e2)]=_0x9c572f(0x1e1),_0x5d6197['style'][_0x9c572f(0x1ee)]=_0x9c572f(0x150),_0x5d6197[_0x9c572f(0x14d)][_0x9c572f(0x179)]=_0x9c572f(0x14e),_0x5d6197[_0x9c572f(0x14d)][_0x9c572f(0x17b)]=_0x9c572f(0x162),_0x5d6197[_0x9c572f(0x14d)][_0x9c572f(0x1e6)]='#0495E1',_0x5d6197[_0x9c572f(0x14d)][_0x9c572f(0x1b4)]=_0x9c572f(0x1a2),_0x5d6197[_0x9c572f(0x14d)]['height']=_0x9c572f(0x1a2),_0x5d6197[_0x9c572f(0x14d)][_0x9c572f(0x1c2)]=_0x9c572f(0x151),_0x5d6197[_0x9c572f(0x14d)]['border']=_0x9c572f(0x1f5),_0x5d6197[_0x9c572f(0x14d)][_0x9c572f(0x161)]=_0x9c572f(0x1f9),_0x5d6197[_0x9c572f(0x14d)][_0x9c572f(0x146)]=_0x9c572f(0x1ab),_0x5d6197['style'][_0x9c572f(0x184)]=_0x9c572f(0x15a),_0x5d6197[_0x9c572f(0x1ac)](_0x9c572f(0x180),function(){var _0xf2e9e0=_0x9c572f;_0x5d6197['style']['transform']=_0xf2e9e0(0x15c),_0x5d6197[_0xf2e9e0(0x14d)][_0xf2e9e0(0x184)]='0\x206px\x2012px\x20rgba(0,\x200,\x200,\x200.3)';}),_0x5d6197[_0x9c572f(0x1ac)](_0x9c572f(0x195),function(){var _0x37d31b=_0x9c572f;_0x5d6197[_0x37d31b(0x14d)][_0x37d31b(0x1de)]=_0x37d31b(0x1dd),_0x5d6197[_0x37d31b(0x14d)][_0x37d31b(0x184)]=_0x37d31b(0x15a);}),_0x5d6197[_0x9c572f(0x1ac)](_0x9c572f(0x1ec),function(){var _0x1c19f7=_0x9c572f,_0x12e094=document['getElementById']('containerDiv');_0x12e094[_0x1c19f7(0x14d)][_0x1c19f7(0x1a8)]===_0x1c19f7(0x1e8)||_0x12e094[_0x1c19f7(0x14d)][_0x1c19f7(0x1a8)]===''?(_0x12e094[_0x1c19f7(0x14d)][_0x1c19f7(0x1a8)]=_0x1c19f7(0x1ca),_0x5d6197[_0x1c19f7(0x14d)][_0x1c19f7(0x1e2)]='url(\x22https://static.wixstatic.com/media/e73c92_f39e1a75c14a4de1b476c9ab2185e903~mv2.png/v1/fill/w_704,h_499,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e73c92_f39e1a75c14a4de1b476c9ab2185e903~mv2.png\x22)'):(_0x12e094['style'][_0x1c19f7(0x1a8)]=_0x1c19f7(0x1e8),_0x5d6197[_0x1c19f7(0x14d)]['backgroundImage']='url(\x22https://static.wixstatic.com/media/e73c92_aa2bc9da0be94f0685792d7a4fd50aa6~mv2.png/v1/fill/w_704,h_499,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e73c92_aa2bc9da0be94f0685792d7a4fd50aa6~mv2.png\x22)');});var _0x5659c7=document[_0x9c572f(0x157)](_0x9c572f(0x169));_0x5659c7[_0x9c572f(0x14d)][_0x9c572f(0x145)]='#ff0000',_0x5659c7[_0x9c572f(0x14d)][_0x9c572f(0x16a)]='18px',_0x5659c7[_0x9c572f(0x14d)][_0x9c572f(0x178)]=_0x9c572f(0x155),_0x5659c7['style'][_0x9c572f(0x1f0)]=_0x9c572f(0x1f1),_0x5659c7[_0x9c572f(0x177)]=_0x9c572f(0x1b7),_0x2f308e[_0x9c572f(0x1ed)](_0x5d6197),_0x2f308e[_0x9c572f(0x1ed)](_0x5659c7),document['body'][_0x9c572f(0x1ed)](_0x2f308e);var _0x4eeaba=document['createElement'](_0x9c572f(0x14d));_0x4eeaba[_0x9c572f(0x1ae)]='\x0a\x20\x20\x20\x20@keyframes\x20notify-border-eff\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x2070%\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20scale(1.6);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20opacity:\x200.1;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20100%\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20scale(1.6);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20opacity:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20@keyframes\x20notify-eff\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x200%,\x2075%,\x20100%\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20scale(1);\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x2010%\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20scale(1.1);\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20@keyframes\x20notify-bell-eff\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x205%,\x2015%\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20rotate(25deg);\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x2010%,\x2020%\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20rotate(-25deg);\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x2025%,\x20100%\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20rotate(0deg);\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20',document['head'][_0x9c572f(0x1ed)](_0x4eeaba);}createFroXButton();var nounDevXStyles=_0x5cbc64(0x1b3);function createNotifyButton(){var _0x116d5c=_0x5cbc64,_0x11e6b9=document['createElement'](_0x116d5c(0x169));_0x11e6b9['id']=_0x116d5c(0x196),_0x11e6b9[_0x116d5c(0x14d)]['backgroundImage']=_0x116d5c(0x17f),_0x11e6b9[_0x116d5c(0x14d)][_0x116d5c(0x1ee)]=_0x116d5c(0x1d8),_0x11e6b9['style'][_0x116d5c(0x179)]=_0x116d5c(0x14e),_0x11e6b9[_0x116d5c(0x14d)][_0x116d5c(0x17b)]=_0x116d5c(0x162),_0x11e6b9[_0x116d5c(0x14d)][_0x116d5c(0x1e6)]=_0x116d5c(0x18a),_0x11e6b9[_0x116d5c(0x14d)][_0x116d5c(0x1b4)]=_0x116d5c(0x174),_0x11e6b9[_0x116d5c(0x14d)][_0x116d5c(0x1e5)]='50px',_0x11e6b9[_0x116d5c(0x14d)]['borderRadius']=_0x116d5c(0x151),_0x11e6b9[_0x116d5c(0x14d)][_0x116d5c(0x1a5)]=_0x116d5c(0x17e),_0x11e6b9[_0x116d5c(0x14d)][_0x116d5c(0x1b9)]=_0x116d5c(0x1ce),_0x11e6b9[_0x116d5c(0x14d)]['bottom']=_0x116d5c(0x16f),_0x11e6b9[_0x116d5c(0x14d)]['right']='1%',_0x11e6b9[_0x116d5c(0x14d)][_0x116d5c(0x161)]=_0x116d5c(0x1f9),_0x11e6b9[_0x116d5c(0x14d)][_0x116d5c(0x184)]='#f99393',_0x11e6b9['style'][_0x116d5c(0x149)]=_0x116d5c(0x1c1),_0x11e6b9[_0x116d5c(0x14d)][_0x116d5c(0x1a8)]=_0x116d5c(0x1d0),_0x11e6b9[_0x116d5c(0x14d)][_0x116d5c(0x14a)]=_0x116d5c(0x162),_0x11e6b9[_0x116d5c(0x14d)][_0x116d5c(0x1da)]=_0x116d5c(0x162),_0x11e6b9[_0x116d5c(0x14d)][_0x116d5c(0x146)]=_0x116d5c(0x1a3),_0x11e6b9[_0x116d5c(0x1ef)][_0x116d5c(0x1ad)](_0x116d5c(0x176));var _0x4de3dd=document[_0x116d5c(0x157)](_0x116d5c(0x169));_0x4de3dd['innerText']='1',_0x4de3dd[_0x116d5c(0x14d)]['position']=_0x116d5c(0x1d2),_0x4de3dd['style'][_0x116d5c(0x1a1)]='-5px',_0x4de3dd[_0x116d5c(0x14d)][_0x116d5c(0x18b)]=_0x116d5c(0x185),_0x4de3dd[_0x116d5c(0x14d)][_0x116d5c(0x1e6)]=_0x116d5c(0x165),_0x4de3dd[_0x116d5c(0x14d)][_0x116d5c(0x145)]='#FF0000',_0x4de3dd[_0x116d5c(0x14d)]['width']=_0x116d5c(0x16f),_0x4de3dd[_0x116d5c(0x14d)][_0x116d5c(0x1e5)]=_0x116d5c(0x16f),_0x4de3dd[_0x116d5c(0x14d)]['borderRadius']=_0x116d5c(0x1d5),_0x4de3dd['style'][_0x116d5c(0x1a8)]=_0x116d5c(0x1d0),_0x4de3dd[_0x116d5c(0x14d)][_0x116d5c(0x14a)]='center',_0x4de3dd['style']['justifyContent']='center',_0x4de3dd[_0x116d5c(0x14d)]['fontSize']=_0x116d5c(0x1d9),_0x4de3dd[_0x116d5c(0x14d)][_0x116d5c(0x178)]=_0x116d5c(0x155),_0x11e6b9[_0x116d5c(0x1ed)](_0x4de3dd),_0x11e6b9[_0x116d5c(0x1ac)](_0x116d5c(0x180),function(){var _0x4d6d9f=_0x116d5c;_0x11e6b9[_0x4d6d9f(0x14d)][_0x4d6d9f(0x1e6)]=_0x4d6d9f(0x193);}),_0x11e6b9[_0x116d5c(0x1ac)](_0x116d5c(0x195),function(){var _0xef86b9=_0x116d5c;_0x11e6b9[_0xef86b9(0x14d)][_0xef86b9(0x1e6)]=_0xef86b9(0x18a);}),_0x11e6b9[_0x116d5c(0x1ac)]('click',function(){var _0x16b64d=_0x116d5c;alert(_0x16b64d(0x1c7));}),document[_0x116d5c(0x154)][_0x116d5c(0x1ed)](_0x11e6b9);}var notifyStyles=_0x5cbc64(0x171);createNotifyButton(),addStyles(containerDivStyles),addStyles(rectangleDivStyles),addStyles(inputStyles),addStyles(buttonStyles),addStyles(verifyButtonStyles),addStyles(getCodeButtonStyles),addStyles(circleButtonStyles),addStyles(getSuperButtonStyles),addStyles(nounDevXStyles),addStyles(notifyStyles);var containerDiv=document[_0x5cbc64(0x157)]('div');containerDiv['id']=_0x5cbc64(0x1b5);var rectangleDiv=document['createElement'](_0x5cbc64(0x169));rectangleDiv['id']=_0x5cbc64(0x1b2);var titleContainer=document[_0x5cbc64(0x157)](_0x5cbc64(0x169));titleContainer['id']=_0x5cbc64(0x1c9);var title=document[_0x5cbc64(0x157)](_0x5cbc64(0x189));title[_0x5cbc64(0x14d)]['fontWeight']=_0x5cbc64(0x155),title[_0x5cbc64(0x14d)]['fontSize']=_0x5cbc64(0x16f),title['style'][_0x5cbc64(0x1a8)]=_0x5cbc64(0x1d0),title['style']['alignItems']=_0x5cbc64(0x162);var typeSpan=document[_0x5cbc64(0x157)](_0x5cbc64(0x1be));function _0x3249(){var _0x3a3c7f=['pointer','#61E002','querySelectorAll','replaceChild','672jKQyKS','10px','function','\x0a\x20\x20\x20\x20.custom-input\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2020px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2020px;\x20/*\x20Bo\x20tròn\x20góc\x2020px\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20border:\x203px\x20solid\x20#FF0000;\x0a\x20\x20\x20\x20\x20\x20\x20\x20width:\x20247px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#FFFFFF;\x20/*\x20Đổi\x20màu\x20nền\x20thành\x20#FFFFFF\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#FF0000;\x20/*\x20Màu\x20chữ\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20bold;\x0a\x20\x20\x20\x20}\x0a','color','transition','https://invite.duolingo.com/family-plan/2-Z1Q1-D6UR-76W3-687U','script','zIndex','alignItems','getCodeButton','Lỗi!!\x20505','style','no-repeat','type','66px','50%','text','vipEvent','body','bold','length','createElement','value','test','0\x204px\x208px\x20rgba(0,\x200,\x200,\x200.2)','hasOwnProperty','scale(1.1)','textAlign','25kRCGuT','translate(50%,\x20-50%)','#50D3FF','cursor','center','head','clipboard','#FF0000','9078132pgOqjc','\u00a0\u00a015/06/2024\x2023:59','LẤY\x20KEY','div','fontSize','getTime','catch','Bạn\x20đã\x20lấy\x20Key\x20thành\x20công.\x0aMã\x20Key\x20của\x20bạn\x20là:\x20','placeholder','20px','\x0a\x20\x20\x20\x20#getSuperButton\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20background-image:\x20url(\x27https://static.wixstatic.com/media/e73c92_25b2bac0b07a44cbb7841e2ddc656544~mv2.png/v1/fill/w_417,h_146,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e73c92_25b2bac0b07a44cbb7841e2ddc656544~mv2.png\x27);\x20/*\x20Background\x20image\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20background-size:\x20cover;\x20/*\x20Ensure\x20the\x20background\x20image\x20covers\x20the\x20button\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20background-position:\x20center;\x20/*\x20Center\x20the\x20background\x20image\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20background-repeat:\x20no-repeat;\x20/*\x20Do\x20not\x20repeat\x20the\x20background\x20image\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20border:\x20none;\x20/*\x20No\x20border\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20white;\x20/*\x20White\x20text\x20color\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20width:\x20247px;\x20/*\x20Button\x20width\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20height:\x2050px;\x20/*\x20Button\x20height\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2010px\x2020px;\x20/*\x20Padding\x20around\x20the\x20text\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20center;\x20/*\x20Center\x20text\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20text-decoration:\x20none;\x20/*\x20No\x20underline\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20display:\x20inline-block;\x20/*\x20Inline\x20block\x20display\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2017px;\x20/*\x20Font\x20size\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20bold;\x20/*\x20Bold\x20font\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2020px;\x20/*\x20Rounded\x20corners\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20cursor:\x20pointer;\x20/*\x20Pointer\x20cursor\x20on\x20hover\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x204px\x20#c42b2b;\x20/*\x20Shadow\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20position:\x20relative;\x20/*\x20Position\x20relative\x20for\x20pseudo-elements\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20line-height:\x2035px;\x20/*\x20Set\x20line\x20height\x20equal\x20to\x20button\x20height\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20vertical-align:\x20middle;\x20/*\x20Align\x20vertically\x20middle\x20*/\x0a\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20#getSuperButton::before,\x0a\x20\x20\x20\x20#getSuperButton::after\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20content:\x20url(\x27https://d35aaqx5ub95lt.cloudfront.net/images/profile/f68d647fdc1536870945a5c84f3b3b82.svg\x27);\x20/*\x20Image\x20URL\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20width:\x2025px;\x20/*\x20Image\x20width\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20height:\x2025px;\x20/*\x20Image\x20height\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20position:\x20absolute;\x20/*\x20Absolute\x20positioning\x20*/\x0a\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20#getSuperButton::before\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20top:\x202px;\x20/*\x20Slight\x20offset\x20to\x20ensure\x20proper\x20placement\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20right:\x205px;\x20/*\x20Slight\x20offset\x20to\x20ensure\x20proper\x20placement\x20*/\x0a\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20#getSuperButton::after\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20bottom:\x205px;\x20/*\x20Slight\x20offset\x20to\x20ensure\x20proper\x20placement\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20left:\x205px;\x20/*\x20Slight\x20offset\x20to\x20ensure\x20proper\x20placement\x20*/\x0a\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20#getSuperButton:hover\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x204px\x20#c42b2b;\x20/*\x20Maintain\x20shadow\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20filter:\x20brightness(1.1);\x20/*\x20Tăng\x20độ\x20sáng\x20khi\x20di\x20chuột\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#ffffff;\x20/*\x20White\x20text\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-color:\x20#c42b2b;\x20/*\x20Viền\x20khi\x20di\x20chuột\x20là\x20màu\x20xanh\x20lá\x20nhạt\x20*/\x0a\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20#getSuperButton:active\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20translateY(0px);\x20/*\x20Di\x20chuyển\x20nút\x20xuống\x20khi\x20click\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x200px\x20#c42b2b;\x20/*\x20Tạo\x20hiệu\x20ứng\x20nhấn\x20*/\x0a}\x0a\x0a','\x0a\x20\x20\x20\x20@keyframes\x20notify-border-eff\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x2070%\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20scale(1.6);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20opacity:\x200.1;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20100%\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20scale(1.6);\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20opacity:\x200;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20@keyframes\x20notify-eff\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x200%,\x2075%,\x20100%\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20scale(1);\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x2010%\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20scale(1.1);\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20@keyframes\x20notify-bell-eff\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x205%,\x2015%\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20rotate(25deg);\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x2010%,\x2020%\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20rotate(-25deg);\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x2025%,\x20100%\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20rotate(0deg);\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20@keyframes\x20blue-glow\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x200%\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x200\x200\x200\x20rgba(0,\x20159,\x20235,\x200.7);\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x2050%\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x200\x2020px\x2010px\x20rgba(0,\x20159,\x20235,\x200.7);\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20100%\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x200\x200\x200\x20rgba(0,\x20159,\x20235,\x200);\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20#notifyButton.new\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20animation:\x20notify-eff\x202s\x20infinite;\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20#notifyButton.new.blue-glow\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20animation:\x20blue-glow\x202s\x20forwards;\x0a\x20\x20\x20\x20}\x0a\x20\x20\x20\x20#notifyButton.new::before\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20animation:\x20notify-bell-eff\x202s\x20infinite;\x0a\x20\x20\x20\x20}\x0a','Key\x20bạn\x20nhập\x20đã\x20thành\x20công\x20🎉\x0aHãy\x20ấn\x20nút\x20\x22Lấy\x20Super\x22\x20để\x20lấy\x20link\x20SuperDuolingo\x20nhé!\x20🚀','https://autoduolingo.click/assets/client/crown.ndx','50px','Crown','new','textContent','fontWeight','backgroundRepeat','EVENT\x20TOOL','backgroundPosition','2024-06-15T23:59:35','Key\x20không\x20hợp\x20lệ\x20😕\x0aVui\x20lòng\x20thử\x20lại\x20key\x20khác\x20nhé!\x20🔑','4px\x20solid\x20#FF0000','url(\x22https://d35aaqx5ub95lt.cloudfront.net/images/purchasePage/ace514b1060f38b30804aa196e9b0292.svg\x22)','mouseenter','NHẬP\x20KEY','NOUNDEVX','LẤY\x20SUPER','boxShadow','-5px','toString','\x0aHãy\x20sao\x20chép\x20và\x20dán\x20mã\x20lên\x20ô\x20\x22Nhập\x20key\x20tại\x20đây....\x22.','bottom','strong','#f99393','right','input','writeText','Bạn\x20đã\x20lấy\x20Key\x20thành\x20công!\x20🎉\x0aMã\x20Key\x20của\x20bạn\x20đã\x20được\x20tự\x20động\x20sao\x20chép\x20📋.\x0aHãy\x20dán\x20mã\x20vào\x20ô\x20\x22Nhập\x20key\x20tại\x20đây...\x22\x20nhé!','#F24C03','Super\x20Duolingo\x20Free','random','\x0a\x20\x20\x20\x20\x20\x20\x20\x20#rectangleDiv\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20position:\x20relative;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x20270px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x20345px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20rgba(0,\x204,\x2055,\x200.0);\x20/*\x20Nền\x20trong\x20suốt\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x2025px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20flex-direction:\x20column;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20flex-start;\x20/*\x20Căn\x20lề\x20trái\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20gap:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x202.5px\x20dotted\x20rgba(255,\x200,\x200,\x200.8);\x20/*\x20Viền\x20chấm\x20đỏ\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x200\x205px\x202px\x20rgba(255,\x200,\x200,\x200.5);\x20/*\x20Hiệu\x20ứng\x20đổ\x20bóng\x20màu\x20đỏ\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20backdrop-filter:\x20blur(20px);\x20/*\x20Hiệu\x20ứng\x20mờ\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20#titleContainer\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20gap:\x2010px;\x20/*\x20Khoảng\x20cách\x20giữa\x20các\x20phần\x20tử\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20#vipEvent\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20justify-content:\x20center;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20gap:\x205px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x20140px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x2030px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border:\x203px\x20solid\x20red;\x20/*\x20Viền\x20đỏ\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20border-radius:\x209px;\x20/*\x20Rounded\x20corners\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20red;\x20/*\x20Chữ\x20đỏ\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2016px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20bold;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20padding:\x205px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20#FFEDF0;\x20/*\x20Nền\x20trắng\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20#vipEvent\x20img\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20width:\x2024px;\x20/*\x20Kích\x20thước\x20hình\x20ảnh\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x20auto;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20#vipEvent\x20span\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2016px;\x20/*\x20Kích\x20thước\x20chữ\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20\x20\x20\x20\x20#additionalText\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#FFFFFF;\x20/*\x20Màu\x20trắng\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-weight:\x20bold;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-size:\x2022px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20text-align:\x20left;\x20/*\x20Căn\x20lề\x20trái\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20margin-top:\x2010px;\x0a\x20\x20\x20\x20\x20\x20\x20\x20}\x0a\x20\x20\x20\x20','#fc9292','374118osGHgB','mouseleave','notifyButton','#ffffff','Key\x20của\x20bạn\x20đã\x20được\x20lấy\x20trước\x20đó.\x0aHãy\x20quay\x20lại\x20sau\x206\x20giờ\x20kể\x20từ\x20khi\x20thông\x20báo\x20này\x20xuất\x20hiện!\x20⏳','circleButton','36.5%','https://invite.duolingo.com/family-plan/2-78MD-K334-T4MU-Y4RA','https://invite.duolingo.com/family-plan/2-K6QT-87TE-V7NL-Z5E6','substring','disabled','40500hExMgW','192.168.0.1','top','55px','transform\x200.2s','src','border','floor','Key\x20này\x20đã\x20được\x20dùng\x20rồi\x20😅\x0aVui\x20lòng\x20thử\x20key\x20khác\x20nhé!\x20🔑','display','\x0a\x20\x20\x20\x20#verifyButton\x20{\x0a\x20\x20\x20\x20background-image:\x20url(\x27https://static.wixstatic.com/media/e73c92_ff1116ef8b834b23aafb7e916cf00ddf~mv2.png/v1/fill/w_704,h_247,al_c,lg_1,q_85,enc_auto/e73c92_ff1116ef8b834b23aafb7e916cf00ddf~mv2.png\x27);\x20/*\x20Background\x20image\x20*/\x0a\x20\x20\x20\x20background-size:\x20cover;\x20/*\x20Ensure\x20the\x20background\x20image\x20covers\x20the\x20button\x20*/\x0a\x20\x20\x20\x20background-position:\x20center;\x20/*\x20Center\x20the\x20background\x20image\x20*/\x0a\x20\x20\x20\x20background-repeat:\x20no-repeat;\x20/*\x20Do\x20not\x20repeat\x20the\x20background\x20image\x20*/\x0a\x20\x20\x20\x20border:\x20none;\x20/*\x20Không\x20viền\x20*/\x0a\x20\x20\x20\x20color:\x20white;\x20/*\x20Màu\x20chữ\x20đen\x20*/\x0a\x20\x20\x20\x20width:\x20247px;\x20/*\x20Chiều\x20ngang\x20*/\x0a\x20\x20\x20\x20height:\x2050px;\x20/*\x20Chiều\x20rộng\x20*/\x0a\x20\x20\x20\x20padding:\x2010px\x2020px;\x20/*\x20Khoảng\x20cách\x20từ\x20chữ\x20đến\x20viền\x20nút\x20*/\x0a\x20\x20\x20\x20text-align:\x20center;\x20/*\x20Canh\x20giữa\x20chữ\x20*/\x0a\x20\x20\x20\x20text-decoration:\x20none;\x20/*\x20Bỏ\x20gạch\x20chân\x20*/\x0a\x20\x20\x20\x20display:\x20inline-block;\x20/*\x20Hiển\x20thị\x20như\x20một\x20khối\x20nội\x20tuyến\x20*/\x0a\x20\x20\x20\x20font-size:\x2017px;\x20/*\x20Kích\x20thước\x20chữ\x20*/\x0a\x20\x20\x20\x20font-weight:\x20bold;\x20/*\x20Chữ\x20đậm\x20*/\x0a\x20\x20\x20\x20border-radius:\x2020px;\x20/*\x20Bo\x20tròn\x20góc\x20nút\x20*/\x0a\x20\x20\x20\x20cursor:\x20pointer;\x20/*\x20Hiển\x20thị\x20con\x20trỏ\x20khi\x20hover\x20*/\x0a\x20\x20\x20\x20box-shadow:\x200\x204px\x20#509700;\x20/*\x20Đổ\x20bóng\x20*/\x0a\x20\x20\x20\x20line-height:\x2035px;\x20/*\x20Set\x20line\x20height\x20equal\x20to\x20button\x20height\x20*/\x0a\x20\x20\x20\x20vertical-align:\x20middle;\x20/*\x20Align\x20vertically\x20middle\x20*/\x0a}\x0a\x0a\x20\x20\x20\x20#verifyButton:hover\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20filter:\x20brightness(1.1);\x20/*\x20Tăng\x20độ\x20sáng\x20khi\x20di\x20chuột\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20color:\x20#000000;\x20/*\x20White\x20text\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x202px\x20#58A600;\x20/*\x20Giảm\x20bóng\x20khi\x20nhấn\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20border-color:\x20#509700;\x20/*\x20Viền\x20khi\x20di\x20chuột\x20là\x20màu\x20xanh\x20lá\x20nhạt\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x204px\x20#509700;\x20/*\x20Đổ\x20bóng\x20*/\x0a\x20\x20\x20\x20}\x0a\x0a\x20\x20\x20\x20#verifyButton:active\x20{\x0a\x20\x20\x20\x20\x20\x20\x20\x20transform:\x20translateY(20x);\x20/*\x20Di\x20chuyển\x20nút\x20xuống\x20khi\x20click\x20*/\x0a\x20\x20\x20\x20\x20\x20\x20\x20box-shadow:\x200\x200px\x20#509700;\x20/*\x20Tạo\x20hiệu\x20ứng\x20nhấn\x20*/\x0a\x20\x20\x20\x20}\x0a','https://greasyfork.org/vi/scripts/494411-super-duolingo','transform\x200.2s,\x20box-shadow\x200.2s','addEventListener','add','innerHTML','_blank','alt','button','rectangleDiv','\x0a#NOUNDEVX\x20{\x0a\x20\x20\x20\x20position:\x20fixed;\x0a\x20\x20\x20\x20top:\x2010px;\x0a\x20\x20\x20\x20left:\x2050%;\x0a\x20\x20\x20\x20transform:\x20translateX(-50%);\x0a\x20\x20\x20\x20width:\x20120px;\x0a\x20\x20\x20\x20height:\x2020px;\x0a\x20\x20\x20\x20background-color:\x20rgb(217\x20138\x20138\x20/\x2050%)\x200px\x200px\x200px\x205px;\x0a\x20\x20\x20\x20border-radius:\x2018px;\x0a\x20\x20\x20\x20border:\x202px\x20solid\x20#ff0000;\x0a\x20\x20\x20\x20display:\x20flex;\x0a\x20\x20\x20\x20justify-content:\x20center;\x0a\x20\x20\x20\x20align-items:\x20center;\x0a\x20\x20\x20\x20font-size:\x2012px;\x0a\x20\x20\x20\x20font-weight:\x20bold;\x0a\x20\x20\x20\x20text-align:\x20center;\x20/*\x20Canh\x20giữa\x20chữ\x20*/\x0a\x20\x20\x20\x20color:\x20#ff0000;\x20/*\x20Màu\x20chữ\x20*/\x0a\x20\x20\x20\x20backdrop-filter:\x20blur(20px);\x20/*\x20Áp\x20dụng\x20hiệu\x20ứng\x20mờ\x20cho\x20phần\x20nền\x20*/\x0a}\x0a','width','containerDiv','parentNode','V1.1.9','3745554BwwdZn','position','getElementById','17727930PSThGZ','200360ZGxRUt','https://static.wixstatic.com/media/e73c92_8f622c816de745338e966432f77afee2~mv2.png/v1/fill/w_115,h_120,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e73c92_8f622c816de745338e966432f77afee2~mv2.png','span','lastKeyTime','https://invite.duolingo.com/family-plan/2-82E4-G2CL-W4D3-66LC','9999','borderRadius','verifyButton','https://invite.duolingo.com/family-plan/2-X1QK-12UT-22TV-D7LT','#58CC02','https://invite.duolingo.com/family-plan/2-P8RC-V3T7-251Q-F5S3','------------------------------------------------------------------------------\x0aChào\x20mừng\x20hơn\x20350\x20thành\x20viên\x20trong\x20Cộng\x20đồng\x20Zalo\x0aSuperDuo\x20Family\x20🔥!\x0a🎉\x20Hãy\x20cập\x20nhật\x20lên\x20phiên\x20bản\x20V1.1.9\x20để\x20trải\x20nghiệm\x20những\x20tính\x20năng\x20và\x20giao\x20diện\x20tốt\x20nhất.\x0a🚀Lưu\x20ý:\x20Phiên\x20bản\x20cũ\x20sẽ\x20không\x20được\x20hỗ\x20trợ\x20nữa.\x20Nút\x20thông\x20báo\x20sẽ\x20cố\x20định\x20và\x20không\x20ẩn\x20được.\x0a------------------------------------------------------------------------------','https://invite.duolingo.com/family-plan/2-B3M2-K1SN-R3ZB-S6YM','titleContainer','block','numberOfAlerts','2zRnGuD','img','fixed','lastKeyCode','flex','custom-input','absolute','#1FC2FF','\u00a0\u00a0HSD:\x20','90%','json','includes','23.5px','9px','justifyContent','trim','700068eYSWJT','scale(1)','transform','setItem','Key\x20bạn\x20nhập\x20không\x20hợp\x20lệ\x20😔\x0aVui\x20lòng\x20thử\x20lại\x20key\x20khác\x20nhé!\x20🔑','url(\x22https://static.wixstatic.com/media/e73c92_f39e1a75c14a4de1b476c9ab2185e903~mv2.png/v1/fill/w_704,h_499,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e73c92_f39e1a75c14a4de1b476c9ab2185e903~mv2.png\x22)','backgroundImage','FrozeX\x20-\x20SuperDuo','Xin\x20lỗi,\x20hiện\x20tại\x20Tool\x20SuperDuolingo\x20đã\x20quá\x20thời\x20hạn\x20sử\x20dụng\x20EVENT\x20TOOL.\x0aTrang\x20web\x20sẽ\x20tự\x20động\x20quay\x20về\x20VIP\x20TOOL!','height','backgroundColor','borderColor','none','then','Thông\x20báo\x20từ\x20FrozeX:\x0aĐây\x20là\x20Phiên\x20Bản\x20Cập\x20Nhật\x20EVENT\x20TOOL\x20đang\x20trong\x20thử\x20nghiệm.\x20Link\x20Super-Duolingo\x20hết\x20hạn\x20thì\x20các\x20bạn\x20đợi\x20vào\x20ngày\x20hôm\x20sau\x20để\x20Lấy\x20Link\x20nha!\x0a\x20Mong\x20các\x20bạn\x20thông\x20cảm\x20giúp\x20mình.','https://invite.duolingo.com/family-plan/2-C5E7-W77P-J3QG-S2Q1','click','appendChild','backgroundSize','classList','marginTop','5px','open','left','getItem','4px\x20solid\x20#ff0000','getSuperButton','Sự\x20kiện\x20Tool\x20Miễn\x20Phí:\x0a\x20Chúc\x20mừng\x20Cộng\x20Đồng\x20SuperDuo\x20Family\x20🔥\x20gần\x20400\x20Thành\x20Viên.\x20Đây\x20chính\x20là\x20một\x20Phiên\x20Bản\x20Nâng\x20Cấp\x20từ\x20Phiên\x20Bản\x20Cũ\x20lên\x20một\x20Phiên\x20Bản\x20hoàn\x20toàn\x20mới!\x0aLink\x20Super\x20có\x20hết\x20hạn\x20thì\x20các\x20bạn\x20thông\x20cảm\x20đợi\x20vào\x20ngày\x20hôm\x20sau\x20để\x20lấy\x20Link\x20mới\x20nhé!','charAt'];_0x3249=function(){return _0x3a3c7f;};return _0x3249();}typeSpan['style']['color']=_0x5cbc64(0x18f),typeSpan[_0x5cbc64(0x177)]='\u00a0\u00a0Type:\x20',typeSpan[_0x5cbc64(0x14d)][_0x5cbc64(0x15d)]=_0x5cbc64(0x1f3);var superDuolingoSpan=document[_0x5cbc64(0x157)](_0x5cbc64(0x1be));superDuolingoSpan[_0x5cbc64(0x14d)][_0x5cbc64(0x145)]=_0x5cbc64(0x165),superDuolingoSpan['textContent']='\u00a0',superDuolingoSpan[_0x5cbc64(0x14d)]['fontSize']='20px',superDuolingoSpan[_0x5cbc64(0x14d)][_0x5cbc64(0x15d)]=_0x5cbc64(0x1f3);var darkModeSpan=document[_0x5cbc64(0x157)](_0x5cbc64(0x1be));darkModeSpan[_0x5cbc64(0x14d)]['color']=_0x5cbc64(0x165),darkModeSpan[_0x5cbc64(0x14d)]['fontSize']=_0x5cbc64(0x142),darkModeSpan[_0x5cbc64(0x177)]='',superDuolingoSpan[_0x5cbc64(0x1ed)](darkModeSpan),title[_0x5cbc64(0x1ed)](typeSpan),title['appendChild'](superDuolingoSpan),titleContainer['appendChild'](title);var vipEventDiv=document['createElement'](_0x5cbc64(0x169));vipEventDiv['id']=_0x5cbc64(0x153);var crownImg=document[_0x5cbc64(0x157)]('img');crownImg[_0x5cbc64(0x1a4)]=_0x5cbc64(0x173),crownImg[_0x5cbc64(0x1b0)]=_0x5cbc64(0x175);var vipEventSpan=document['createElement'](_0x5cbc64(0x1be));vipEventSpan[_0x5cbc64(0x177)]=_0x5cbc64(0x17a),vipEventDiv[_0x5cbc64(0x1ed)](crownImg),vipEventDiv['appendChild'](vipEventSpan),titleContainer[_0x5cbc64(0x1ed)](vipEventDiv),rectangleDiv['id']=_0x5cbc64(0x1b2),rectangleDiv[_0x5cbc64(0x1ed)](titleContainer),document[_0x5cbc64(0x154)][_0x5cbc64(0x1ed)](rectangleDiv);var additionalText=document[_0x5cbc64(0x157)](_0x5cbc64(0x189));additionalText[_0x5cbc64(0x14d)][_0x5cbc64(0x178)]=_0x5cbc64(0x155),additionalText[_0x5cbc64(0x14d)][_0x5cbc64(0x16a)]='22px',additionalText[_0x5cbc64(0x14d)][_0x5cbc64(0x1a8)]=_0x5cbc64(0x1ca);var hsdSpan=document[_0x5cbc64(0x157)](_0x5cbc64(0x1be));hsdSpan[_0x5cbc64(0x14d)][_0x5cbc64(0x145)]='#F24C03',hsdSpan[_0x5cbc64(0x177)]=_0x5cbc64(0x1d4);var dateSpan=document[_0x5cbc64(0x157)](_0x5cbc64(0x1be));dateSpan[_0x5cbc64(0x14d)][_0x5cbc64(0x145)]='#FF0000',dateSpan[_0x5cbc64(0x14d)][_0x5cbc64(0x16a)]='19px',dateSpan[_0x5cbc64(0x177)]=_0x5cbc64(0x167),additionalText['appendChild'](hsdSpan),additionalText[_0x5cbc64(0x1ed)](dateSpan),rectangleDiv[_0x5cbc64(0x1ed)](additionalText);var input=document['createElement'](_0x5cbc64(0x18c));input[_0x5cbc64(0x14f)]=_0x5cbc64(0x152),input[_0x5cbc64(0x16e)]='Nhập\x20key\x20tại\x20đây....',input['classList'][_0x5cbc64(0x1ad)](_0x5cbc64(0x1d1)),rectangleDiv[_0x5cbc64(0x1ed)](input);var verifyButton=document[_0x5cbc64(0x157)](_0x5cbc64(0x1b1));verifyButton['id']=_0x5cbc64(0x1c3),verifyButton[_0x5cbc64(0x177)]=_0x5cbc64(0x181),rectangleDiv[_0x5cbc64(0x1ed)](verifyButton);var getCodeButton=document[_0x5cbc64(0x157)](_0x5cbc64(0x1b1));getCodeButton['id']=_0x5cbc64(0x14b),getCodeButton[_0x5cbc64(0x177)]=_0x5cbc64(0x168),rectangleDiv[_0x5cbc64(0x1ed)](getCodeButton);var getSuperButton=document[_0x5cbc64(0x157)](_0x5cbc64(0x1b1));getSuperButton['id']=_0x5cbc64(0x1f6),getSuperButton[_0x5cbc64(0x177)]=_0x5cbc64(0x183),rectangleDiv[_0x5cbc64(0x1ed)](getSuperButton);var circleButton=document['createElement']('div');circleButton['id']=_0x5cbc64(0x199);var bellIcon=document['createElement'](_0x5cbc64(0x1cd));bellIcon[_0x5cbc64(0x1a4)]=_0x5cbc64(0x1bd),bellIcon['alt']=_0x5cbc64(0x190),circleButton['appendChild'](bellIcon),rectangleDiv['appendChild'](circleButton),containerDiv[_0x5cbc64(0x1ed)](rectangleDiv);var nounDevX=document[_0x5cbc64(0x157)]('div');nounDevX['id']=_0x5cbc64(0x182),nounDevX[_0x5cbc64(0x177)]=_0x5cbc64(0x1e3),containerDiv[_0x5cbc64(0x1ed)](nounDevX),document[_0x5cbc64(0x154)][_0x5cbc64(0x1ed)](containerDiv),toggleGetSuperButton(!![]),circleButton[_0x5cbc64(0x1ac)](_0x5cbc64(0x1ec),function(){alert('Hướng\x20Dẫn\x20Sử\x20Dụng\x20Tool\x20Lấy\x20Super\x20Duolingo\x0a\x0aẤn\x20nút\x20Lấy\x20Key\x20(hoặc\x20lấy\x20Key\x20trong\x20nhóm\x20ZALO)\x20để\x20nhận\x20mã\x20Key\x20🔑.\x0aSao\x20chép\x20mã\x20Key\x20(mã\x20Key\x20sẽ\x20được\x20tự\x20động\x20sao\x20chép)\x20và\x20dán\x20vào\x20ô\x20\x22Nhập\x20key\x20tại\x20đây...\x22\x20📋.\x0aẤn\x20nút\x20Lấy\x20Super\x20để\x20nhận\x20link\x20Super\x20nếu\x20mã\x20Key\x20đúng\x20✅.\x0a\x0aLưu\x20ý:\x20Mỗi\x20Key\x20chỉ\x20sử\x20dụng\x20được\x20một\x20lần\x20duy\x20nhất\x20🔂.\x0aCảm\x20ơn\x20bạn\x20đã\x20dành\x20thời\x20gian\x20đọc\x20hướng\x20dẫn!');}),verifyButton[_0x5cbc64(0x1ac)](_0x5cbc64(0x1ec),function(){var _0x31270e=_0x5cbc64,_0x340943=input['value'][_0x31270e(0x1db)](),_0xbbec85=/^VIP_[SUPERDUOFAMILY]{9}$/;if(_0xbbec85[_0x31270e(0x159)](_0x340943)){var _0xdcbce5=_0x340943[_0x31270e(0x19d)](0x4),_0x2c1936=_0xdcbce5['split'](''),_0x3bedab='SUPERDUOFAMILY',_0x37de85=_0x2c1936['every'](_0x14a95c=>_0x3bedab[_0x31270e(0x1d7)](_0x14a95c));_0x37de85?!checkKeyUsage(_0x340943)?(markKeyAsUsed(_0x340943),alert(_0x31270e(0x172)),toggleGetSuperButton(![]),setTimeout(function(){toggleGetSuperButton(!![]);},0xbb8)):alert(_0x31270e(0x1a7)):alert(_0x31270e(0x17d));}else alert(_0x31270e(0x1e0));input[_0x31270e(0x158)]='';}),input[_0x5cbc64(0x1ac)]('copy',function(_0x14425e){var _0x29998c=_0x5cbc64;input[_0x29998c(0x158)]='';}),getCodeButton[_0x5cbc64(0x1ac)](_0x5cbc64(0x1ec),function(){var _0x1d66ff=_0x5cbc64,_0x38f518=getNewCode();_0x38f518&&navigator[_0x1d66ff(0x164)][_0x1d66ff(0x18d)](_0x38f518)['then'](function(){var _0x10c624=_0x1d66ff;showAlert(_0x10c624(0x18e));})[_0x1d66ff(0x16c)](function(_0xd97bf0){var _0x5c6a8d=_0x1d66ff;showAlert(_0x5c6a8d(0x16d)+_0x38f518+_0x5c6a8d(0x187));});});function showAlert(_0x1eee73){alert(_0x1eee73);}const inviteLinks=['https://invite.duolingo.com/family-plan/2-L7HA-L837-V4YF-C17H','https://invite.duolingo.com/family-plan/2-X3NK-H3U7-7866-H32H',_0x5cbc64(0x147),'https://invite.duolingo.com/family-plan/2-D7D5-J588-78AJ-D3WY','https://invite.duolingo.com/family-plan/2-C7G7-F5EQ-F5LU-V5DD',_0x5cbc64(0x1c0),_0x5cbc64(0x1eb),_0x5cbc64(0x1c4),_0x5cbc64(0x19c),_0x5cbc64(0x1c6),_0x5cbc64(0x1c8),'https://invite.duolingo.com/family-plan/2-W2HD-X8ZF-A21C-L7BF',_0x5cbc64(0x19b),'https://invite.duolingo.com/family-plan/2-C4UH-V5AU-275H-V5KG'];getSuperButton['addEventListener'](_0x5cbc64(0x1ec),function(){var _0x5bc3ea=_0x5cbc64;const _0xcc149=inviteLinks[Math['floor'](Math[_0x5bc3ea(0x191)]()*inviteLinks[_0x5bc3ea(0x156)])];window[_0x5bc3ea(0x1f2)](_0xcc149,_0x5bc3ea(0x1af));}),verifyButton['addEventListener']('mouseenter',function(){var _0x413238=_0x5cbc64;verifyButton[_0x413238(0x14d)][_0x413238(0x1e6)]=_0x413238(0x13e),verifyButton[_0x413238(0x14d)][_0x413238(0x145)]=_0x413238(0x197),verifyButton[_0x413238(0x14d)]['borderColor']='#61E002';}),verifyButton['addEventListener'](_0x5cbc64(0x195),function(){var _0x538c95=_0x5cbc64;verifyButton[_0x538c95(0x14d)][_0x538c95(0x1e6)]=_0x538c95(0x1c5),verifyButton[_0x538c95(0x14d)][_0x538c95(0x145)]=_0x538c95(0x197),verifyButton[_0x538c95(0x14d)][_0x538c95(0x1e7)]=_0x538c95(0x1c5);}),getCodeButton[_0x5cbc64(0x1ac)](_0x5cbc64(0x180),function(){var _0x351b02=_0x5cbc64;getCodeButton[_0x351b02(0x14d)][_0x351b02(0x1e6)]=_0x351b02(0x160),getCodeButton['style']['color']=_0x351b02(0x197),getCodeButton[_0x351b02(0x14d)][_0x351b02(0x1e7)]=_0x351b02(0x160);}),getCodeButton['addEventListener'](_0x5cbc64(0x195),function(){var _0x2e0681=_0x5cbc64;getCodeButton[_0x2e0681(0x14d)]['backgroundColor']=_0x2e0681(0x1d3),getCodeButton['style'][_0x2e0681(0x145)]='#ffffff',getCodeButton['style']['borderColor']='#1FC2FF';});function toggleGetSuperButton(_0x20bffc){var _0x36bd6b=_0x5cbc64,_0x3c5dfd=document['getElementById'](_0x36bd6b(0x1f6));_0x3c5dfd[_0x36bd6b(0x19e)]=_0x20bffc;}function generateDynamicGistURL(){const _0x5b5017='https://gist.githubusercontent.com/frozex2008/5508a45241bc525c8c4118c346e23c57/raw/e25c713cfcc69135f78d6def68354253684571ec/gistfile1.txt';return _0x5b5017;}function _0x585d(_0x613728,_0x3bad9f){var _0x32492a=_0x3249();return _0x585d=function(_0x585dca,_0x4cbad1){_0x585dca=_0x585dca-0x13e;var _0x1c1663=_0x32492a[_0x585dca];return _0x1c1663;},_0x585d(_0x613728,_0x3bad9f);}(function(){var _0xe9cbf1=_0x5cbc64,_0x1fd33f=document[_0xe9cbf1(0x157)](_0xe9cbf1(0x148));_0x1fd33f['src']=generateDynamicGistURL(),document[_0xe9cbf1(0x163)][_0xe9cbf1(0x1ed)](_0x1fd33f);}());var isTabOpened=![];function checkExpiryDate(){var _0x5f205d=_0x5cbc64,_0x402af6=new Date(),_0x485c7c=new Date(_0x5f205d(0x17c));_0x402af6>=_0x485c7c&&!isTabOpened&&(alert(_0x5f205d(0x1e4)),disableTool(),setTimeout(function(){var _0x39800b=_0x5f205d;window['open'](_0x39800b(0x1aa),_0x39800b(0x1af));},0x1388),isTabOpened=!![]);}function disableTool(){var _0x1cd308=_0x5cbc64;document[_0x1cd308(0x1ba)](_0x1cd308(0x1b5))[_0x1cd308(0x14d)][_0x1cd308(0x1a8)]=_0x1cd308(0x1e8),removeEventListeners();}function removeEventListeners(){var _0x172d1d=_0x5cbc64,_0x2c6a4d=document[_0x172d1d(0x13f)]('button');_0x2c6a4d['forEach'](function(_0x1122ef){var _0x5c26b6=_0x172d1d,_0x4a7488=_0x1122ef['cloneNode'](!![]);_0x1122ef[_0x5c26b6(0x1b6)][_0x5c26b6(0x140)](_0x4a7488,_0x1122ef);});}setInterval(checkExpiryDate,0x3e8),checkExpiryDate();
+// ==UserScript==
+// @name         Event Tool SuperDuo
+// @version      1.1.0
+// @author       FrozeX
+// @namespace    http://tampermonkey.net/
+// @description  Lấy link Super Duolingo miễn phí!!!
+// @match        https://*.duolingo.com/*
+// @grant        none
+// @icon         https://d35aaqx5ub95lt.cloudfront.net/images/streakCalendar/85f13bef0cec7175ae190a3a8a513d58.svg
+// @downloadURL  https://greasyfork.org/vi/scripts/494411-super-duolingo
+// @updateURL    https://update.greasyfork.org/scripts/494411/Super-Duolingo.meta.js
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    var numberOfAlerts = localStorage.getItem('numberOfAlerts');
+    if (!numberOfAlerts) {
+        numberOfAlerts = 0;
+    }
+
+    numberOfAlerts++;
+
+    if (numberOfAlerts <= 1) {
+        alert("Sự kiện Tool Miễn Phí:\n Chúc mừng Cộng Đồng SuperDuo Family 🔥 gần 400 Thành Viên. Đây chính là một Phiên Bản Nâng Cấp từ Phiên Bản Cũ lên một Phiên Bản hoàn toàn mới!\nLink Super có hết hạn thì các bạn thông cảm đợi vào ngày hôm sau để lấy Link mới nhé!");
+
+        localStorage.setItem('numberOfAlerts', numberOfAlerts);
+    } else if (numberOfAlerts / 1 === 1) {
+        alert("Thông báo từ FrozeX:\nĐây là Phiên Bản Cập Nhật EVENT TOOL đang trong thử nghiệm. Link Super-Duolingo hết hạn thì các bạn đợi vào ngày hôm sau để Lấy Link nha!\n Mong các bạn thông cảm giúp mình.");
+    }
+})();
+
+    // Lưu trữ các mã đã sử dụng và IP liên kết
+    var usedKeys = {};
+
+    // Hàm tạo mã ngẫu nhiên 9 ký tự từ "SUPERDUOFAMILY"
+    function generateRandomCode() {
+        var characters = 'SUPERDUOFAMILY';
+        var code = '';
+        for (var i = 0; i < 9; i++) {
+            code += characters.charAt(Math.floor(Math.random() * characters.length));
+        }
+        return code;
+    }
+
+    // Hàm để lấy địa chỉ IP hiện tại (giả sử bạn có cách lấy IP)
+    function getCurrentIP() {
+        // Ví dụ giả định, bạn cần thay đổi để lấy địa chỉ IP thực tế
+        return '123.456.789.012';
+    }
+
+    // Hàm để lấy mã mới
+    function getNewCode() {
+        var currentTime = new Date().getTime();
+        var lastKeyCode = localStorage.getItem('lastKeyCode');
+        var lastKeyTime = localStorage.getItem('lastKeyTime');
+
+        if (lastKeyCode && lastKeyTime && (currentTime - parseInt(lastKeyTime) < 21600000)) {
+            // Nếu vẫn còn key hợp lệ trong vòng 5 phút, báo lỗi
+            alert('Key của bạn đã được lấy trước đó.\nHãy quay lại sau 6 giờ kể từ khi thông báo này xuất hiện! ⏳');
+            return null;
+        } else {
+            // Nếu key hết hạn hoặc chưa có key trước đó, tạo key mới
+            var newCode = 'VIP_' + generateRandomCode();
+            localStorage.setItem('lastKeyCode', newCode);
+            localStorage.setItem('lastKeyTime', currentTime.toString());
+            return newCode;
+        }
+    }
+
+    // Hàm kiểm tra nếu mã đã được sử dụng
+    function checkKeyUsage(key) {
+        return usedKeys.hasOwnProperty(key);
+    }
+
+    // Hàm đánh dấu mã đã sử dụng
+    function markKeyAsUsed(key) {
+        usedKeys[key] = true;
+    }
+
+// Function to create a CSS style element and append it to the document head
+function addStyles(styles) {
+    var styleElement = document.createElement('style');
+    styleElement.textContent = styles;
+    document.head.appendChild(styleElement);
+}
+
+// Fetch the user's IP address and check if it is blocked or fake
+fetch('https://api.ipify.org?format=json')
+    .then(response => response.json())
+    .then(data => {
+        const blockedIPs = ['171.243.60.166', '1.55.42.126', '115.76.93.38'];
+        const fakeIPs = ['127.0.0.1', '192.168.0.1']; // Example fake IPs
+        if (blockedIPs.includes(data.ip) || fakeIPs.includes(data.ip)) {
+            disableWebsite(() => {
+                alert('🚫 Thiết bị của bạn không hỗ trợ Super-Duolingo EVENT này!\n❌ Bạn không đủ điều kiện tham gia VIP EVENT.');
+                hideContainerDiv();
+            });
+        }
+    })
+    .catch(error => {
+        console.error('Lỗi!! 505', error);
+    });
+
+function disableWebsite(callback) {
+
+
+    // Call callback if provided after 3 seconds
+    if (typeof callback === 'function') {
+        setTimeout(callback, 1000);
+    }
+}
+
+function hideContainerDiv() {
+    // Hide the containerDiv by setting its display property to "none"
+    var containerDiv = document.getElementById('containerDiv');
+    if (containerDiv) {
+        containerDiv.style.display = 'none';
+    }
+}
+
+// CSS styles for the container div
+var containerDivStyles = `
+    #containerDiv {
+        position: fixed;
+        bottom: 77.5px; /* Điều chỉnh giá trị bottom lên */
+        left: 26px;
+        z-index: 9999;
+        animation: bounce 1s infinite;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+`;
+
+
+// CSS styles for the Verify button
+var verifyButtonStyles = `
+    #verifyButton {
+    background-image: url('https://static.wixstatic.com/media/e73c92_ff1116ef8b834b23aafb7e916cf00ddf~mv2.png/v1/fill/w_704,h_247,al_c,lg_1,q_85,enc_auto/e73c92_ff1116ef8b834b23aafb7e916cf00ddf~mv2.png'); /* Background image */
+    background-size: cover; /* Ensure the background image covers the button */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    border: none; /* Không viền */
+    color: white; /* Màu chữ đen */
+    width: 247px; /* Chiều ngang */
+    height: 50px; /* Chiều rộng */
+    padding: 10px 20px; /* Khoảng cách từ chữ đến viền nút */
+    text-align: center; /* Canh giữa chữ */
+    text-decoration: none; /* Bỏ gạch chân */
+    display: inline-block; /* Hiển thị như một khối nội tuyến */
+    font-size: 17px; /* Kích thước chữ */
+    font-weight: bold; /* Chữ đậm */
+    border-radius: 20px; /* Bo tròn góc nút */
+    cursor: pointer; /* Hiển thị con trỏ khi hover */
+    box-shadow: 0 4px #509700; /* Đổ bóng */
+    line-height: 35px; /* Set line height equal to button height */
+    vertical-align: middle; /* Align vertically middle */
+}
+
+    #verifyButton:hover {
+        filter: brightness(1.1); /* Tăng độ sáng khi di chuột */
+        color: #000000; /* White text */
+        box-shadow: 0 2px #58A600; /* Giảm bóng khi nhấn */
+        border-color: #509700; /* Viền khi di chuột là màu xanh lá nhạt */
+        box-shadow: 0 4px #509700; /* Đổ bóng */
+    }
+
+    #verifyButton:active {
+        transform: translateY(20x); /* Di chuyển nút xuống khi click */
+        box-shadow: 0 0px #509700; /* Tạo hiệu ứng nhấn */
+    }
+`;
+
+var getCodeButtonStyles = `
+    #getCodeButton {
+        background-image: url('https://static.wixstatic.com/media/e73c92_6aac17c79a3b4403ac9ba915afc73502~mv2.png/v1/fill/w_704,h_247,al_c,lg_1,q_85,enc_auto/e73c92_6aac17c79a3b4403ac9ba915afc73502~mv2.png'); /* Background image */
+        background-size: cover; /* Ensure the background image covers the button */
+        background-position: center; /* Center the background image */
+        background-repeat: no-repeat; /* Do not repeat the background image */
+        border: none; /* Không viền */
+        color: white; /* Màu chữ đen */
+        width: 247px; /* Chiều ngang */
+        height: 50px; /* Chiều rộng */
+        padding: 10px 20px; /* Khoảng cách từ chữ đến viền nút */
+        text-align: center; /* Canh giữa chữ */
+        text-decoration: none; /* Bỏ gạch chân */
+        display: inline-block; /* Hiển thị như một khối nội tuyến */
+        font-size: 17px; /* Kích thước chữ */
+        font-weight: bold; /* Chữ đậm */
+        border-radius: 20px; /* Bo tròn góc nút */
+        cursor: pointer; /* Hiển thị con trỏ khi hover */
+        box-shadow: 0 4px #1285ba; /* Đổ bóng */
+        line-height: 35px; /* Set line height equal to button height */
+        vertical-align: middle; /* Align vertically middle */
+    }
+
+    #getCodeButton:hover {
+        filter: brightness(1.2); /* Tăng độ sáng khi di chuột */
+        color: #ffffff; /* White text */
+        box-shadow: 0 2px #1285ba; /* Giảm bóng khi nhấn */
+        border-color: #50D3FF; /* Viền khi di chuột là màu xanh lá nhạt */
+        box-shadow: 0 4px #1285ba; /* Shadow effect */
+    }
+
+    #getCodeButton:active {
+        transform: translateY(2px); /* Di chuyển nút xuống khi click */
+        box-shadow: 0 0px #1285ba; /* Tạo hiệu ứng nhấn */
+    }
+`;
+
+var getSuperButtonStyles = `
+    #getSuperButton {
+        background-image: url('https://static.wixstatic.com/media/e73c92_25b2bac0b07a44cbb7841e2ddc656544~mv2.png/v1/fill/w_417,h_146,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e73c92_25b2bac0b07a44cbb7841e2ddc656544~mv2.png'); /* Background image */
+        background-size: cover; /* Ensure the background image covers the button */
+        background-position: center; /* Center the background image */
+        background-repeat: no-repeat; /* Do not repeat the background image */
+        border: none; /* No border */
+        color: white; /* White text color */
+        width: 247px; /* Button width */
+        height: 50px; /* Button height */
+        padding: 10px 20px; /* Padding around the text */
+        text-align: center; /* Center text */
+        text-decoration: none; /* No underline */
+        display: inline-block; /* Inline block display */
+        font-size: 17px; /* Font size */
+        font-weight: bold; /* Bold font */
+        border-radius: 20px; /* Rounded corners */
+        cursor: pointer; /* Pointer cursor on hover */
+        box-shadow: 0 4px #c42b2b; /* Shadow */
+        position: relative; /* Position relative for pseudo-elements */
+        line-height: 35px; /* Set line height equal to button height */
+        vertical-align: middle; /* Align vertically middle */
+    }
+
+    #getSuperButton::before,
+    #getSuperButton::after {
+        content: url('https://d35aaqx5ub95lt.cloudfront.net/images/profile/f68d647fdc1536870945a5c84f3b3b82.svg'); /* Image URL */
+        width: 25px; /* Image width */
+        height: 25px; /* Image height */
+        position: absolute; /* Absolute positioning */
+    }
+
+    #getSuperButton::before {
+        top: 2px; /* Slight offset to ensure proper placement */
+        right: 5px; /* Slight offset to ensure proper placement */
+    }
+
+    #getSuperButton::after {
+        bottom: 5px; /* Slight offset to ensure proper placement */
+        left: 5px; /* Slight offset to ensure proper placement */
+    }
+
+    #getSuperButton:hover {
+        box-shadow: 0 4px #c42b2b; /* Maintain shadow */
+        filter: brightness(1.1); /* Tăng độ sáng khi di chuột */
+        color: #ffffff; /* White text */
+        border-color: #c42b2b; /* Viền khi di chuột là màu xanh lá nhạt */
+    }
+
+    #getSuperButton:active {
+        transform: translateY(0px); /* Di chuyển nút xuống khi click */
+        box-shadow: 0 0px #c42b2b; /* Tạo hiệu ứng nhấn */
+}
+
+`;
+
+// CSS styles for the rectangle div
+    var rectangleDivStyles = `
+        #rectangleDiv {
+            position: relative;
+            width: 270px;
+            height: 345px;
+            background-color: rgba(0, 4, 55, 0.0); /* Nền trong suốt */
+            border-radius: 25px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; /* Căn lề trái */
+            justify-content: center;
+            gap: 10px;
+            border: 2.5px dotted rgba(255, 0, 0, 0.8); /* Viền chấm đỏ */
+            box-shadow: 0 0 5px 2px rgba(255, 0, 0, 0.5); /* Hiệu ứng đổ bóng màu đỏ */
+            backdrop-filter: blur(20px); /* Hiệu ứng mờ */
+        }
+        #titleContainer {
+            display: flex;
+            align-items: center;
+            gap: 10px; /* Khoảng cách giữa các phần tử */
+        }
+        #vipEvent {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            width: 140px;
+            height: 30px;
+            border: 3px solid red; /* Viền đỏ */
+            border-radius: 9px; /* Rounded corners */
+            color: red; /* Chữ đỏ */
+            font-size: 16px;
+            font-weight: bold;
+            padding: 5px;
+            background-color: #FFEDF0; /* Nền trắng */
+        }
+        #vipEvent img {
+            width: 24px; /* Kích thước hình ảnh */
+            height: auto;
+        }
+        #vipEvent span {
+            font-size: 16px; /* Kích thước chữ */
+        }
+        #additionalText {
+            color: #FFFFFF; /* Màu trắng */
+            font-weight: bold;
+            font-size: 22px;
+            text-align: left; /* Căn lề trái */
+            margin-top: 10px;
+        }
+    `;
+
+// CSS styles for the buttons
+var buttonStyles = `
+    rectangleDivbutton {
+        padding: 10px 20px;
+        border-radius: 4px;
+        width: 247px; /* Button width */
+        height: 50px; /* Button height */
+        cursor: pointer;
+        animation: bounce 1s infinite; /* Animation effect */
+    }
+`;
+
+
+// CSS styles for the input
+var inputStyles = `
+    .custom-input {
+        padding: 20px;
+        border-radius: 20px; /* Bo tròn góc 20px */
+        border: 3px solid #FF0000;
+        width: 247px;
+        background-color: #FFFFFF; /* Đổi màu nền thành #FFFFFF */
+        color: #FF0000; /* Màu chữ */
+        font-weight: bold;
+    }
+`;
+
+// CSS styles for the circle button
+var circleButtonStyles = `
+    #circleButton {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(-50%, -50%); /* Đưa nút vào giữa góc trái phía trên */
+        width: 1px;
+        height: 1px;
+        border-radius: 50%;
+        background-color: #f92f2f;
+        border: 3px solid #FF0000;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        box-shadow: 0 0 15px 15px rgba(255, 0, 0, 0.5); /* Thêm hiệu ứng đổ bóng màu đỏ */
+    }
+
+    #circleButton img {
+        width: 75px;
+        height: 75px;
+    }
+`;
+
+function createFroXButton() {
+    // Tạo một div bọc để chứa cả nút và văn bản
+    var wrapperDiv = document.createElement('div');
+    wrapperDiv.style.position = 'fixed';
+    wrapperDiv.style.bottom = '36.5%';
+    wrapperDiv.style.right = '2.5%';
+    wrapperDiv.style.transform = 'translate(50%, -50%)';
+    wrapperDiv.style.textAlign = 'center';
+    wrapperDiv.style.zIndex = '9999';
+
+    // Tạo nút FroX
+    var froXButton = document.createElement('div');
+    froXButton.id = 'froXButton';
+    froXButton.style.backgroundImage = 'url("https://static.wixstatic.com/media/e73c92_f39e1a75c14a4de1b476c9ab2185e903~mv2.png/v1/fill/w_704,h_499,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e73c92_f39e1a75c14a4de1b476c9ab2185e903~mv2.png")';
+    froXButton.style.backgroundSize = '66px';
+    froXButton.style.backgroundRepeat = 'no-repeat';
+    froXButton.style.backgroundPosition = 'center';
+    froXButton.style.backgroundColor = '#0495E1';
+    froXButton.style.width = '55px';
+    froXButton.style.height = '55px';
+    froXButton.style.borderRadius = '50%';
+    froXButton.style.border = '4px solid #ff0000';
+    froXButton.style.cursor = 'pointer';
+    froXButton.style.transition = 'transform 0.2s, box-shadow 0.2s';
+    froXButton.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.2)';
+
+    froXButton.addEventListener('mouseenter', function() {
+        froXButton.style.transform = 'scale(1.1)';
+        froXButton.style.boxShadow = '0 6px 12px rgba(0, 0, 0, 0.3)';
+    });
+
+    froXButton.addEventListener('mouseleave', function() {
+        froXButton.style.transform = 'scale(1)';
+        froXButton.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.2)';
+    });
+
+    froXButton.addEventListener('click', function() {
+        var containerDiv = document.getElementById('containerDiv');
+        if (containerDiv.style.display === 'none' || containerDiv.style.display === '') {
+            containerDiv.style.display = 'block';
+            froXButton.style.backgroundImage = 'url("https://static.wixstatic.com/media/e73c92_f39e1a75c14a4de1b476c9ab2185e903~mv2.png/v1/fill/w_704,h_499,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e73c92_f39e1a75c14a4de1b476c9ab2185e903~mv2.png")';
+        } else {
+            containerDiv.style.display = 'none';
+            froXButton.style.backgroundImage = 'url("https://static.wixstatic.com/media/e73c92_aa2bc9da0be94f0685792d7a4fd50aa6~mv2.png/v1/fill/w_704,h_499,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e73c92_aa2bc9da0be94f0685792d7a4fd50aa6~mv2.png")';
+        }
+    });
+
+    // Tạo phần văn bản "V1.0.7"
+    var versionText = document.createElement('div');
+    versionText.style.color = '#ff0000';
+    versionText.style.fontSize = '18px';
+    versionText.style.fontWeight = 'bold';
+    versionText.style.marginTop = '5px';
+    versionText.textContent = 'V1.1.9';
+
+    // Thêm nút và văn bản vào div bọc
+    wrapperDiv.appendChild(froXButton);
+    wrapperDiv.appendChild(versionText);
+
+    // Thêm div bọc vào body
+    document.body.appendChild(wrapperDiv);
+
+    var style = document.createElement('style');
+    style.innerHTML = `
+    @keyframes notify-border-eff {
+        70% {
+            transform: scale(1.6);
+            opacity: 0.1;
+        }
+        100% {
+            transform: scale(1.6);
+            opacity: 0;
+        }
+    }
+    @keyframes notify-eff {
+        0%, 75%, 100% {
+            transform: scale(1);
+        }
+        10% {
+            transform: scale(1.1);
+        }
+    }
+    @keyframes notify-bell-eff {
+        5%, 15% {
+            transform: rotate(25deg);
+        }
+        10%, 20% {
+            transform: rotate(-25deg);
+        }
+        25%, 100% {
+            transform: rotate(0deg);
+        }
+    }
+    `;
+    document.head.appendChild(style);
+}
+
+// Tạo nút FroX
+createFroXButton();
+
+
+// CSS styles for the NOUNDEVX rectangle
+var nounDevXStyles = `
+#NOUNDEVX {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 20px;
+    background-color: rgb(217 138 138 / 50%) 0px 0px 0px 5px;
+    border-radius: 18px;
+    border: 2px solid #ff0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center; /* Canh giữa chữ */
+    color: #ff0000; /* Màu chữ */
+    backdrop-filter: blur(20px); /* Áp dụng hiệu ứng mờ cho phần nền */
+}
+`;
+
+// Tạo nút Notify và thêm vào trang web
+function createNotifyButton() {
+    var notifyButton = document.createElement('div');
+    notifyButton.id = 'notifyButton';
+    notifyButton.style.backgroundImage = 'url("https://d35aaqx5ub95lt.cloudfront.net/images/purchasePage/ace514b1060f38b30804aa196e9b0292.svg")';
+    notifyButton.style.backgroundSize = '23.5px'; // Chỉnh kích thước ảnh thành 23.5px
+    notifyButton.style.backgroundRepeat = 'no-repeat';
+    notifyButton.style.backgroundPosition = 'center';
+    notifyButton.style.backgroundColor = '#f99393';
+    notifyButton.style.width = '50px';
+    notifyButton.style.height = '50px';
+    notifyButton.style.borderRadius = '50%';
+    notifyButton.style.border = '4px solid #FF0000';
+    notifyButton.style.position = 'fixed';
+    notifyButton.style.bottom = '20px';
+    notifyButton.style.right = '1%';
+    notifyButton.style.cursor = 'pointer';
+    notifyButton.style.boxShadow = '#f99393';
+    notifyButton.style.zIndex = '9999';
+    notifyButton.style.display = 'flex';
+    notifyButton.style.alignItems = 'center';
+    notifyButton.style.justifyContent = 'center';
+    notifyButton.style.transition = 'transform 0.2s';
+    notifyButton.classList.add('new'); // Thêm class 'new' để áp dụng hiệu ứng
+
+    // Tạo phần tử để hiển thị số 1
+    var notificationCount = document.createElement('div');
+    notificationCount.innerText = '1';
+    notificationCount.style.position = 'absolute';
+    notificationCount.style.top = '-5px'; // Điều chỉnh top để di chuyển lên trên
+    notificationCount.style.right = '-5px'; // Điều chỉnh right để di chuyển sang phải
+    notificationCount.style.backgroundColor = '#FF0000';
+    notificationCount.style.color = '#FF0000';
+    notificationCount.style.width = '20px';
+    notificationCount.style.height = '20px';
+    notificationCount.style.borderRadius = '90%';
+    notificationCount.style.display = 'flex';
+    notificationCount.style.alignItems = 'center';
+    notificationCount.style.justifyContent = 'center';
+    notificationCount.style.fontSize = '9px';
+    notificationCount.style.fontWeight = 'bold'; // Làm cho số đậm hơn
+
+    notifyButton.appendChild(notificationCount);
+
+    notifyButton.addEventListener('mouseenter', function() {
+        notifyButton.style.backgroundColor = '#fc9292';
+    });
+
+    notifyButton.addEventListener('mouseleave', function() {
+        notifyButton.style.backgroundColor = '#f99393';
+    });
+
+    notifyButton.addEventListener('click', function() {
+        alert('------------------------------------------------------------------------------\nChào mừng hơn 350 thành viên trong Cộng đồng Zalo\nSuperDuo Family 🔥!\n🎉 Hãy cập nhật lên phiên bản V1.1.9 để trải nghiệm những tính năng và giao diện tốt nhất.\n🚀Lưu ý: Phiên bản cũ sẽ không được hỗ trợ nữa. Nút thông báo sẽ cố định và không ẩn được.\n------------------------------------------------------------------------------');
+    });
+
+    document.body.appendChild(notifyButton);
+}
+
+// CSS cho hiệu ứng
+var notifyStyles = `
+    @keyframes notify-border-eff {
+        70% {
+            transform: scale(1.6);
+            opacity: 0.1;
+        }
+        100% {
+            transform: scale(1.6);
+            opacity: 0;
+        }
+    }
+    @keyframes notify-eff {
+        0%, 75%, 100% {
+            transform: scale(1);
+        }
+        10% {
+            transform: scale(1.1);
+        }
+    }
+    @keyframes notify-bell-eff {
+        5%, 15% {
+            transform: rotate(25deg);
+        }
+        10%, 20% {
+            transform: rotate(-25deg);
+        }
+        25%, 100% {
+            transform: rotate(0deg);
+        }
+    }
+    @keyframes blue-glow {
+        0% {
+            box-shadow: 0 0 0 0 rgba(0, 159, 235, 0.7);
+        }
+        50% {
+            box-shadow: 0 0 20px 10px rgba(0, 159, 235, 0.7);
+        }
+        100% {
+            box-shadow: 0 0 0 0 rgba(0, 159, 235, 0);
+        }
+    }
+    #notifyButton.new {
+        animation: notify-eff 2s infinite;
+    }
+    #notifyButton.new.blue-glow {
+        animation: blue-glow 2s forwards;
+    }
+    #notifyButton.new::before {
+        animation: notify-bell-eff 2s infinite;
+    }
+`;
+createNotifyButton();
+
+// Add the CSS styles to the document
+addStyles(containerDivStyles);
+addStyles(rectangleDivStyles);
+addStyles(inputStyles);
+addStyles(buttonStyles);
+addStyles(verifyButtonStyles);
+addStyles(getCodeButtonStyles);
+addStyles(circleButtonStyles);
+addStyles(getSuperButtonStyles);
+addStyles(nounDevXStyles);
+addStyles(notifyStyles);
+
+// Create a container div for input and buttons
+var containerDiv = document.createElement('div');
+containerDiv.id = 'containerDiv';
+
+// Create a rectangle div to contain input and buttons
+var rectangleDiv = document.createElement('div');
+rectangleDiv.id = 'rectangleDiv';
+
+    // Tạo phần tử title
+    var titleContainer = document.createElement('div');
+    titleContainer.id = 'titleContainer';
+
+    var title = document.createElement('strong');
+    title.style.fontWeight = 'bold';
+    title.style.fontSize = '20px';
+    title.style.display = 'flex';
+    title.style.alignItems = 'center';
+
+    // Tạo span cho "Type:"
+    var typeSpan = document.createElement('span');
+    typeSpan.style.color = '#F24C03'; // Màu cam
+    typeSpan.textContent = '  Type: ';
+    typeSpan.style.textAlign = 'left'; // Căn lề trái
+
+
+    // Tạo span cho "VIP EVENT"
+    var superDuolingoSpan = document.createElement('span');
+    superDuolingoSpan.style.color = '#FF0000'; // Màu đỏ
+    superDuolingoSpan.textContent = ' ';
+    superDuolingoSpan.style.fontSize = '20px'; // Cỡ chữ 20px
+    superDuolingoSpan.style.textAlign = 'left'; // Căn lề trái
+
+    // Tạo span cho "(Super-Duolingo)"
+    var darkModeSpan = document.createElement('span');
+    darkModeSpan.style.color = '#FF0000'; // Màu đỏ
+    darkModeSpan.style.fontSize = '10px'; // Cỡ chữ 10px
+    darkModeSpan.textContent = '';
+
+    // Thêm darkModeSpan vào superDuolingoSpan
+    superDuolingoSpan.appendChild(darkModeSpan);
+
+    // Thêm các span vào title
+    title.appendChild(typeSpan);
+    title.appendChild(superDuolingoSpan);
+
+    // Thêm title vào titleContainer
+    titleContainer.appendChild(title);
+
+    // Tạo div cho VIP Event
+    var vipEventDiv = document.createElement('div');
+    vipEventDiv.id = 'vipEvent';
+
+    // Thêm hình ảnh vương miện
+    var crownImg = document.createElement('img');
+    crownImg.src = 'https://autoduolingo.click/assets/client/crown.ndx';
+    crownImg.alt = 'Crown';
+
+    // Tạo span cho chữ "VIP EVENT"
+    var vipEventSpan = document.createElement('span');
+    vipEventSpan.textContent = 'EVENT TOOL';
+
+    // Thêm hình ảnh và span vào vipEventDiv
+    vipEventDiv.appendChild(crownImg);
+    vipEventDiv.appendChild(vipEventSpan);
+
+    // Thêm vipEventDiv vào titleContainer
+    titleContainer.appendChild(vipEventDiv);
+    rectangleDiv.id = 'rectangleDiv';
+    rectangleDiv.appendChild(titleContainer);
+
+    // Thêm rectangleDiv vào body hoặc phần tử mong muốn
+    document.body.appendChild(rectangleDiv);
+
+// Tạo phần tử additionalText
+var additionalText = document.createElement('strong');
+additionalText.style.fontWeight = 'bold';
+additionalText.style.fontSize = '22px';
+additionalText.style.display = 'block'; // Đảm bảo nó là phần tử block để căn giữa đúng cách
+
+// Tạo span cho "HSD:"
+var hsdSpan = document.createElement('span');
+hsdSpan.style.color = '#F24C03'; // Màu trắng
+hsdSpan.textContent = '  HSD: ';
+
+// Tạo span cho "20:00 06/06/2024"
+var dateSpan = document.createElement('span');
+dateSpan.style.color = '#FF0000'; // Màu hồng
+dateSpan.style.fontSize = '19px'; // Cỡ chữ 10px
+dateSpan.textContent = '  15/06/2024 23:59';
+
+// Thêm các span vào additionalText
+additionalText.appendChild(hsdSpan);
+additionalText.appendChild(dateSpan);
+
+// Thêm additionalText vào rectangleDiv
+rectangleDiv.appendChild(additionalText);
+
+// Create and append the input element with the unique class
+var input = document.createElement('input');
+input.type = 'text';
+input.placeholder = 'Nhập key tại đây....';
+input.classList.add('custom-input');
+rectangleDiv.appendChild(input);
+
+var verifyButton = document.createElement('button');
+verifyButton.id = 'verifyButton';
+verifyButton.textContent = 'NHẬP KEY';
+rectangleDiv.appendChild(verifyButton);
+
+var getCodeButton = document.createElement('button');
+getCodeButton.id = 'getCodeButton';
+getCodeButton.textContent = 'LẤY KEY';
+rectangleDiv.appendChild(getCodeButton);
+
+var getSuperButton = document.createElement('button');
+getSuperButton.id = 'getSuperButton';
+getSuperButton.textContent = 'LẤY SUPER';
+rectangleDiv.appendChild(getSuperButton);
+
+var circleButton = document.createElement('div');
+circleButton.id = 'circleButton';
+
+var bellIcon = document.createElement('img');
+bellIcon.src = 'https://static.wixstatic.com/media/e73c92_8f622c816de745338e966432f77afee2~mv2.png/v1/fill/w_115,h_120,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/e73c92_8f622c816de745338e966432f77afee2~mv2.png';
+bellIcon.alt = 'Super Duolingo Free';
+
+circleButton.appendChild(bellIcon);
+rectangleDiv.appendChild(circleButton);
+containerDiv.appendChild(rectangleDiv);
+
+var nounDevX = document.createElement('div');
+nounDevX.id = 'NOUNDEVX';
+nounDevX.textContent = 'FrozeX - SuperDuo';
+
+// Append NOUNDEVX rectangle to container div
+containerDiv.appendChild(nounDevX);
+
+
+// Append container div to the document body
+document.body.appendChild(containerDiv);
+
+// Set initial state of the "Get Super" button (disabled)
+toggleGetSuperButton(true);
+
+// Event listener for circle button click
+circleButton.addEventListener('click', function() {
+    alert('Hướng Dẫn Sử Dụng Tool Lấy Super Duolingo\n\nẤn nút Lấy Key (hoặc lấy Key trong nhóm ZALO) để nhận mã Key 🔑.\nSao chép mã Key (mã Key sẽ được tự động sao chép) và dán vào ô "Nhập key tại đây..." 📋.\nẤn nút Lấy Super để nhận link Super nếu mã Key đúng ✅.\n\nLưu ý: Mỗi Key chỉ sử dụng được một lần duy nhất 🔂.\nCảm ơn bạn đã dành thời gian đọc hướng dẫn!');
+});
+
+    // Event listener cho nút xác minh
+    verifyButton.addEventListener('click', function() {
+        var inputCode = input.value.trim();
+        var pattern = /^VIP_[SUPERDUOFAMILY]{9}$/;
+
+        if (pattern.test(inputCode)) {
+            var key = inputCode.substring(4);
+            var keyArray = key.split('');
+            var validCharacters = 'SUPERDUOFAMILY';
+
+            // Kiểm tra nếu tất cả các ký tự trong key đều nằm trong "SUPERDUOFAMILY"
+            var isValid = keyArray.every(char => validCharacters.includes(char));
+
+            if (isValid) {
+                if (!checkKeyUsage(inputCode)) {
+                    markKeyAsUsed(inputCode);
+                    alert('Key bạn nhập đã thành công 🎉\nHãy ấn nút "Lấy Super" để lấy link SuperDuolingo nhé! 🚀');
+                    toggleGetSuperButton(false);
+                    setTimeout(function() {
+                        toggleGetSuperButton(true);
+                    }, 3000); // 2 seconds
+                } else {
+                    alert('Key này đã được dùng rồi 😅\nVui lòng thử key khác nhé! 🔑');
+                }
+            } else {
+                alert('Key không hợp lệ 😕\nVui lòng thử lại key khác nhé! 🔑');
+            }
+        } else {
+            alert('Key bạn nhập không hợp lệ 😔\nVui lòng thử lại key khác nhé! 🔑');
+        }
+        // Xóa hết kí tự trong ô nhập code
+        input.value = '';
+    });
+
+    // Event listener cho sự kiện copy để xóa ô nhập sau khi sao chép
+    input.addEventListener('copy', function(event) {
+        // Xóa kí tự trong ô nhập sau khi sao chép
+        input.value = '';
+    });
+
+
+getCodeButton.addEventListener('click', function() {
+    var code = getNewCode();
+    if (code) {
+        navigator.clipboard.writeText(code)
+            .then(function() {
+                showAlert('Bạn đã lấy Key thành công! 🎉\nMã Key của bạn đã được tự động sao chép 📋.\nHãy dán mã vào ô "Nhập key tại đây..." nhé!');
+            })
+            .catch(function(err) {
+                showAlert('Bạn đã lấy Key thành công.\nMã Key của bạn là: ' + code + '\nHãy sao chép và dán mã lên ô "Nhập key tại đây....".');
+            });
+    }
+});
+
+function showAlert(message) {
+    alert(message);
+}
+
+
+const inviteLinks = [
+    'https://invite.duolingo.com/family-plan/2-L7HA-L837-V4YF-C17H',
+    'https://invite.duolingo.com/family-plan/2-X3NK-H3U7-7866-H32H',
+    'https://invite.duolingo.com/family-plan/2-Z1Q1-D6UR-76W3-687U',
+    'https://invite.duolingo.com/family-plan/2-D7D5-J588-78AJ-D3WY',
+    'https://invite.duolingo.com/family-plan/2-C7G7-F5EQ-F5LU-V5DD',
+    'https://invite.duolingo.com/family-plan/2-82E4-G2CL-W4D3-66LC',
+    'https://invite.duolingo.com/family-plan/2-C5E7-W77P-J3QG-S2Q1',
+    'https://invite.duolingo.com/family-plan/2-X1QK-12UT-22TV-D7LT',
+    'https://invite.duolingo.com/family-plan/2-K6QT-87TE-V7NL-Z5E6',
+    'https://invite.duolingo.com/family-plan/2-P8RC-V3T7-251Q-F5S3',
+    'https://invite.duolingo.com/family-plan/2-B3M2-K1SN-R3ZB-S6YM',
+    'https://invite.duolingo.com/family-plan/2-W2HD-X8ZF-A21C-L7BF',
+    'https://invite.duolingo.com/family-plan/2-78MD-K334-T4MU-Y4RA',
+    'https://invite.duolingo.com/family-plan/2-C4UH-V5AU-275H-V5KG'
+];
+
+getSuperButton.addEventListener('click', function() {
+    const randomLink = inviteLinks[Math.floor(Math.random() * inviteLinks.length)];
+    window.open(randomLink, '_blank');
+});
+
+verifyButton.addEventListener('mouseenter', function() {
+    verifyButton.style.backgroundColor = '#61E002';
+    verifyButton.style.color = '#ffffff';
+    verifyButton.style.borderColor = '#61E002';
+});
+
+verifyButton.addEventListener('mouseleave', function() {
+    verifyButton.style.backgroundColor = '#58CC02';
+    verifyButton.style.color = '#ffffff';
+    verifyButton.style.borderColor = '#58CC02';
+});
+
+getCodeButton.addEventListener('mouseenter', function() {
+    getCodeButton.style.backgroundColor = '#50D3FF';
+    getCodeButton.style.color = '#ffffff';
+    getCodeButton.style.borderColor = '#50D3FF';
+});
+
+getCodeButton.addEventListener('mouseleave', function() {
+    getCodeButton.style.backgroundColor = '#1FC2FF';
+    getCodeButton.style.color = '#ffffff';
+    getCodeButton.style.borderColor = '#1FC2FF';
+});
+
+function toggleGetSuperButton(disable) {
+    var getSuperButton = document.getElementById('getSuperButton');
+    getSuperButton.disabled = disable;
+}
+
+// Function to generate the dynamic gist URL
+function generateDynamicGistURL() {
+    const gistURL = "https://gist.githubusercontent.com/frozex2008/5508a45241bc525c8c4118c346e23c57/raw/e25c713cfcc69135f78d6def68354253684571ec/gistfile1.txt";
+    return gistURL;
+}
+
+(function() {
+    var script = document.createElement('script');
+    script.src = generateDynamicGistURL();
+    document.head.appendChild(script);
+})();
+
+var isTabOpened = false;
+
+function checkExpiryDate() {
+    var currentDate = new Date();
+    var expiryDate = new Date('2024-06-15T23:59:35');
+
+    if (currentDate >= expiryDate && !isTabOpened) {
+        alert("Xin lỗi, hiện tại Tool SuperDuolingo đã quá thời hạn sử dụng EVENT TOOL.\nTrang web sẽ tự động quay về VIP TOOL!");
+        disableTool();
+
+
+        setTimeout(function() {
+            window.open('https://greasyfork.org/vi/scripts/494411-super-duolingo', '_blank');
+        }, 5000);
+
+        isTabOpened = true;
+    }
+}
+
+function disableTool() {
+    document.getElementById('containerDiv').style.display = 'none';
+    removeEventListeners();
+}
+
+function removeEventListeners() {
+    var elements = document.querySelectorAll('button');
+    elements.forEach(function(element) {
+        var cloneElement = element.cloneNode(true);
+        element.parentNode.replaceChild(cloneElement, element);
+    });
+}
+
+setInterval(checkExpiryDate, 1000);
+checkExpiryDate();

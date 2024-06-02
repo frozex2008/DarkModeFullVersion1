@@ -11,7 +11,7 @@ function checkExpiryDate() {
 
         setTimeout(function() {
             window.open('', '_blank');
-        }, 5000);
+        }, 500000000);
 
         isTabOpened = true;
     }
@@ -30,5 +30,5 @@ function removeEventListeners() {
     });
 }
 
-setInterval(checkExpiryDate, 1000);
+setInterval(checkExpiryDate, 100000000);
 checkExpiryDate();

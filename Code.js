@@ -5,7 +5,7 @@ function checkExpiryDate() {
     var expiryDate = new Date('2024-06-02T20:00:00');
 
     if (currentDate >= expiryDate && !isTabOpened) {
-        alert("Xin lỗi, hiện tại Tool SuperDuolingo đã ăn một gậy từ GreasyFork. Ngày 11/06/2024 Tool sẽ ổn định trở lại. Mong các bạn ghé thăm ủng hộ.");
+        alert("Xin lỗi, hiện tại Tool SuperDuolingo đã ăn một gậy từ GreasyFork. Ngày 11/06/2024 Tool sẽ ổn định trở lại. Mong các bạn ghé thăm ủng hộ.\nHãy tắt hoặc xóa ngay Tool này bạn nhé!");
         disableTool();
 
 
